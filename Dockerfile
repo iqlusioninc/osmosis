@@ -21,7 +21,7 @@ RUN apk add --no-cache \
 
 # Download go dependencies
 WORKDIR /osmosis
-COPY go.mod go.sum ./
+COPY . .
 RUN --mount=type=cache,target=/root/.cache/go-build \
     --mount=type=cache,target=/root/go/pkg/mod \
     go mod download
@@ -34,8 +34,6 @@ RUN ARCH=$(uname -m) && WASMVM_VERSION=$(go list -m github.com/CosmWasm/wasmvm |
     wget https://github.com/CosmWasm/wasmvm/releases/download/$WASMVM_VERSION/checksums.txt -O /tmp/checksums.txt && \
     sha256sum /lib/libwasmvm_muslc.a | grep $(cat /tmp/checksums.txt | grep libwasmvm_muslc.$ARCH | cut -d ' ' -f 1)
 
-# Copy the remaining files
-COPY . .
 
 # Build osmosisd binary
 RUN --mount=type=cache,target=/root/.cache/go-build \

@@ -398,6 +398,8 @@ replace (
 	github.com/cosmos/gogoproto => github.com/cosmos/gogoproto v1.4.10
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
 
+    github.com/cosmos/ibc-go/v7 => ./ibc-go-security
+
 	// We explicitly use commits from the `v23.x` branch in https://github.com/osmosis-labs/sqs
 	github.com/osmosis-labs/sqs/sqsdomain => github.com/osmosis-labs/sqs/sqsdomain v0.0.0-20240208034521-124b6eed4927
 	// replace as directed by sdk upgrading.md https://github.com/cosmos/cosmos-sdk/blob/393de266c8675dc16cc037c1a15011b1e990975f/UPGRADING.md?plain=1#L713
@@ -410,7 +412,7 @@ replace (
 // github.com/osmosis-labs/osmosis/osmomath => ./osmomath
 // github.com/osmosis-labs/osmosis/osmoutils => ./osmoutils
 // github.com/osmosis-labs/osmosis/x/epochs => ./x/epochs
-// github.com/osmosis-labs/osmosis/x/ibc-hooks => ./x/ibc-hooks
+   github.com/osmosis-labs/osmosis/x/ibc-hooks => ./x/ibc-hooks
 )
 
 // exclusion so we use v1.0.0
