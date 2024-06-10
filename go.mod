@@ -38,7 +38,7 @@ require (
 	github.com/osmosis-labs/sqs/sqsdomain v0.0.0-20240327132234-be32305a2a6e
 	github.com/pkg/errors v0.9.1
 	github.com/rakyll/statik v0.1.7
-	github.com/redis/go-redis/v9 v9.5.1
+	github.com/redis/go-redis/v9 v9.5.3
 	github.com/spf13/cast v1.6.0
 	github.com/spf13/cobra v1.8.0
 	github.com/spf13/pflag v1.0.5
