@@ -8,7 +8,7 @@ require (
 	cosmossdk.io/math v1.3.0
 	cosmossdk.io/tools/rosetta v0.2.1
 	github.com/CosmWasm/wasmd v0.45.1-0.20231128163306-4b9b61faeaa3
-	github.com/CosmWasm/wasmvm v1.5.2
+	github.com/CosmWasm/wasmvm v1.5.5
 	github.com/btcsuite/btcd v0.24.0
 	github.com/btcsuite/btcd/btcutil v1.1.5
 	github.com/btcsuite/btcd/chaincfg/chainhash v1.1.0
