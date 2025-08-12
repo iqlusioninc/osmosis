@@ -22,7 +22,7 @@ jobs:
     steps:
       -
         name: Check out repository code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       -
         name: Get git diff
         uses: technote-space/get-diff-action@v6.1.2
@@ -49,7 +49,7 @@ jobs:
     steps:
       -
         name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       -
         name: 🐿 Setup Golang
         uses: actions/setup-go@v5
@@ -102,7 +102,7 @@ jobs:
     steps:
       -
         name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       -
         name: 🐿 Setup Golang
         uses: actions/setup-go@v5
@@ -130,7 +130,7 @@ jobs:
     steps:
       -
         name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
       -
