@@ -1,6 +1,6 @@
 module github.com/osmosis-labs/osmosis/x/epochs
 
-go 1.21
+go 1.23
 
 require (
 	github.com/armon/go-metrics v0.4.1

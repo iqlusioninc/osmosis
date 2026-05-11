@@ -1,6 +1,6 @@
 module github.com/osmosis-labs/osmosis/osmomath
 
-go 1.21
+go 1.23
 
 require (
 	cosmossdk.io/math v1.3.0
@@ -8,7 +8,6 @@ require (
 	github.com/osmosis-labs/osmosis/osmoutils v0.0.9-0.20240312193551-6c010fa93f60
 	github.com/stretchr/testify v1.8.4
 	gopkg.in/yaml.v2 v2.4.0
-
 )
 
 require (
