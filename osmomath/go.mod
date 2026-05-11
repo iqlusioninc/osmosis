@@ -1,6 +1,6 @@
 module github.com/osmosis-labs/osmosis/osmomath
 
-go 1.21
+go 1.23.0
 
 require (
 	cosmossdk.io/math v1.3.0
@@ -8,11 +8,11 @@ require (
 	github.com/osmosis-labs/osmosis/osmoutils v0.0.9-0.20240312193551-6c010fa93f60
 	github.com/stretchr/testify v1.8.4
 	gopkg.in/yaml.v2 v2.4.0
-
 )
 
 require (
 	cosmossdk.io/errors v1.0.1 // indirect
+	cosmossdk.io/log v1.6.1 // indirect
 	github.com/DataDog/zstd v1.4.5 // indirect
 	github.com/OneOfOne/xxhash v1.2.8 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
@@ -86,7 +86,7 @@ require (
 	golang.org/x/crypto v0.18.0 // indirect
 	golang.org/x/exp v0.0.0-20230905200255-921286631fa9 // indirect
 	golang.org/x/net v0.20.0 // indirect
-	golang.org/x/sys v0.16.0 // indirect
+	golang.org/x/sys v0.33.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240123012728-ef4313101c80 // indirect
 	google.golang.org/grpc v1.62.0 // indirect
