@@ -36,8 +36,8 @@ github.com/btcsuite/btcd/btcec/v2 v2.3.2 h1:5n0X6hX0Zk+6omWcihdYvdAlGf2DfasC0GMf
 github.com/btcsuite/btcd/btcec/v2 v2.3.2/go.mod h1:zYzJ8etWJQIv1Ogk7OzpWjowwOdXY1W/17j2MW85J04=
 github.com/btcsuite/btcd/btcutil v1.1.3 h1:xfbtw8lwpp0G6NwSHb+UE67ryTFHJAiNuipusjXSohQ=
 github.com/btcsuite/btcd/btcutil v1.1.3/go.mod h1:UR7dsSJzJUfMmFiiLlIrMq1lS9jh9EdCV7FStZSnpi0=
-github.com/btcsuite/btcd/chaincfg/chainhash v1.0.2 h1:KdUfX2zKommPRa+PD0sWZUyXe9w277ABlgELO7H04IM=
-github.com/btcsuite/btcd/chaincfg/chainhash v1.0.2/go.mod h1:7SFka0XMvUgj3hfZtydOrQY2mwhPclbT2snogU7SQQc=
+github.com/btcsuite/btcd/chaincfg/chainhash v1.2.0 h1:yMIg99+4aBvqfl/HzJRKfxTX9rGfikoI9uvFzterhc8=
+github.com/btcsuite/btcd/chaincfg/chainhash v1.2.0/go.mod h1:Y72Ren9gfhlEvnwnT78BGcSNO2UMphTKLn9AorF+5rg=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/cespare/xxhash v1.1.0 h1:a6HrQnmkObjyL+Gs60czilIUGqrzKutQD6XZog3p+ko=
 github.com/cespare/xxhash v1.1.0/go.mod h1:XrSqR1VqqWfGrhpAt58auRo0WTKS1nRRg3ghfAqPWnc=
@@ -261,8 +261,8 @@ github.com/onsi/gomega v1.17.0/go.mod h1:HnhC7FXeEQY45zxNK3PPoIUhzk/80Xly9PcubAl
 github.com/onsi/gomega v1.19.0/go.mod h1:LY+I3pBVzYsTBU1AnDwOSxaYi9WoWiqgwooUqq9yPro=
 github.com/onsi/gomega v1.28.1 h1:MijcGUbfYuznzK/5R4CPNoUP/9Xvuo20sXfEm6XxoTA=
 github.com/onsi/gomega v1.28.1/go.mod h1:9sxs+SwGrKI0+PWe4Fxa9tFQQBG5xSsSbMXOI8PPpoQ=
-github.com/osmosis-labs/cosmos-sdk v0.47.5-v24-osmo-1 h1:4A1wE3r21NfvGXt8wXcHCgcUwIp4uFe7zmjvZfZgXdw=
-github.com/osmosis-labs/cosmos-sdk v0.47.5-v24-osmo-1/go.mod h1:My+hyHX37Pe/6GKyo4veTXCHPu2vi5X3r18Y7E5AkPw=
+github.com/osmosis-labs/cosmos-sdk v0.47.5-v24-osmo-3 h1:fFYH3xNpLIcwBR5ZNJEtUTn9+Uy0RZt6AHBqcUVC7FA=
+github.com/osmosis-labs/cosmos-sdk v0.47.5-v24-osmo-3/go.mod h1:My+hyHX37Pe/6GKyo4veTXCHPu2vi5X3r18Y7E5AkPw=
 github.com/osmosis-labs/osmosis/osmoutils v0.0.9-0.20240312193551-6c010fa93f60 h1:4iq0tvpzm6U0J4z6Fm95AmIFiEADE06lrBXr7HUMkdg=
 github.com/osmosis-labs/osmosis/osmoutils v0.0.9-0.20240312193551-6c010fa93f60/go.mod h1:D2EoDxsaeILMe4YsCXE3CuhpQKoCosTCGaUaLYTgUY0=
 github.com/pelletier/go-toml v1.2.0/go.mod h1:5z9KED0ma1S8pY6P1sdut58dfprrGBbd/94hg7ilaic=

@@ -1,6 +1,6 @@
 module github.com/osmosis-labs/osmosis/osmomath
 
-go 1.21
+go 1.22
 
 require (
 	cosmossdk.io/math v1.3.0
@@ -8,7 +8,6 @@ require (
 	github.com/osmosis-labs/osmosis/osmoutils v0.0.9-0.20240312193551-6c010fa93f60
 	github.com/stretchr/testify v1.8.4
 	gopkg.in/yaml.v2 v2.4.0
-
 )
 
 require (
@@ -17,7 +16,7 @@ require (
 	github.com/OneOfOne/xxhash v1.2.8 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.3.2 // indirect
-	github.com/btcsuite/btcd/chaincfg/chainhash v1.0.2 // indirect
+	github.com/btcsuite/btcd/chaincfg/chainhash v1.2.0 // indirect
 	github.com/cespare/xxhash v1.1.0 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/cockroachdb/errors v1.11.1 // indirect

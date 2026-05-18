@@ -1,6 +1,6 @@
 module github.com/osmosis-labs/osmosis/v24
 
-go 1.21
+go 1.22
 
 require (
 	cosmossdk.io/api v0.3.1
@@ -11,7 +11,7 @@ require (
 	github.com/CosmWasm/wasmvm v1.5.2
 	github.com/btcsuite/btcd v0.24.0
 	github.com/btcsuite/btcd/btcutil v1.1.5
-	github.com/btcsuite/btcd/chaincfg/chainhash v1.1.0
+	github.com/btcsuite/btcd/chaincfg/chainhash v1.2.0
 	github.com/cometbft/cometbft v0.37.4
 	github.com/cometbft/cometbft-db v0.11.0
 	github.com/cosmos/cosmos-proto v1.0.0-beta.3
